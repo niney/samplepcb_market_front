@@ -1,0 +1,22 @@
+{
+  "files": {
+    "app.js": "/samplepcb_market_front/static/js/app.06d8d01f.chunk.js",
+    "app.js.map": "/samplepcb_market_front/static/js/app.06d8d01f.chunk.js.map",
+    "runtime~app.js": "/samplepcb_market_front/static/js/runtime~app.080fa832.js",
+    "runtime~app.js.map": "/samplepcb_market_front/static/js/runtime~app.080fa832.js.map",
+    "static/js/2.5eea5f4f.chunk.js": "/samplepcb_market_front/static/js/2.5eea5f4f.chunk.js",
+    "static/js/2.5eea5f4f.chunk.js.map": "/samplepcb_market_front/static/js/2.5eea5f4f.chunk.js.map",
+    "favicon-16.png": "/samplepcb_market_front/favicon-16.png",
+    "favicon-32.png": "/samplepcb_market_front/favicon-32.png",
+    "favicon.ico": "/samplepcb_market_front/favicon.ico",
+    "index.html": "/samplepcb_market_front/index.html",
+    "manifest.json": "/samplepcb_market_front/manifest.json",
+    "serve.json": "/samplepcb_market_front/serve.json",
+    "static/js/2.5eea5f4f.chunk.js.LICENSE.txt": "/samplepcb_market_front/static/js/2.5eea5f4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.080fa832.js",
+    "static/js/2.5eea5f4f.chunk.js",
+    "static/js/app.06d8d01f.chunk.js"
+  ]
+}

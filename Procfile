@@ -1,1 +1,1 @@
-web: expo build:web
+web: yarn run build

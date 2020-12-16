@@ -1,0 +1,1 @@
+web: expo build:web

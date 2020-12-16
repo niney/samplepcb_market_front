@@ -6,7 +6,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "yarn global add expo-cli && npx expo build:web"
+    "build": "expo build:web && mv ./web-build ./build"
   },
   "dependencies": {
     "expo": "~40.0.0",

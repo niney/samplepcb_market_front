@@ -6,7 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "yarn global add expo-cli && expo build:web"
+    "build:web": "expo build:web",
+    "predeploy:heroku": "heroku login && yarn run build:web && rimraf ../heroku-deploy/web-build && cp -r web-build ../heroku-deploy/web-build",
+    "deploy:heroku": "cd ../heroku-deploy && git add . && git commit -am 'deploy' && git push heroku master"
   },
   "dependencies": {
     "expo": "~40.0.0",
@@ -14,7 +16,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",

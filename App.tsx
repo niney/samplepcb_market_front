@@ -5,7 +5,10 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app! - samplepcb-market frontend test</Text>
+      <Text>
+        Open up App.tsx to start working on your app! - samplepcb-market
+        frontend test
+      </Text>
       <StatusBar style="auto" />
     </View>
   );

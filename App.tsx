@@ -1,28 +1,16 @@
 import "react-native-gesture-handler"
-import { StatusBar } from "expo-status-bar"
 import React from "react"
-import { StyleSheet, Text, View } from "react-native"
-import { NavigationContainer } from "@react-navigation/native"
+import { enableScreens } from "react-native-screens"
+import { ApolloProvider } from "@apollo/client"
+import client from "./apollo"
+import Navigation from "./src/routes/Navigation"
 
-export default function App() {
+enableScreens()
+
+export default function App(): React.ReactElement {
   return (
-    <NavigationContainer>
-      <View style={styles.container}>
-        <Text>
-          Open up App.tsx to start working on your app! - samplepcb-market
-          frontend test
-        </Text>
-        <StatusBar style="auto" />
-      </View>
-    </NavigationContainer>
+    <ApolloProvider client={client}>
+      <Navigation />
+    </ApolloProvider>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-})
